@@ -5,4 +5,5 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     dd(Books::all());
+    //migrations, eloquoent, a
 });
